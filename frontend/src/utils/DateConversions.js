@@ -1,5 +1,4 @@
-
-
+// Common conversion function for formating Date in specific format (For example: Jun 23 11:50 AM)
 const convertDate = (date, dayFlag) => {
     const currentDate = new Date(date);
 
