@@ -1,4 +1,5 @@
 import DateConversions from "./DateConversions";
+//Convert the Forecast API reponse
 const convertForecast = (forecast) => {
     const convertedObj = {
         dt: forecast.dt,
@@ -15,6 +16,7 @@ const convertForecast = (forecast) => {
     return convertedObj;
 }
 
+//Filter the Forecast data and extract data for next few hours 
 const hourlyfilteredForescast = (forecastData, hrs) => {
     const currentTime = new Date();
     const endTime = new Date(currentTime.getTime() + hrs * 60 * 60 * 1000);
@@ -24,6 +26,7 @@ const hourlyfilteredForescast = (forecastData, hrs) => {
     })
 }
 
+//Filter the Forecast data and extract data for 5 days
 const daywiseFilteredForecast = (forecastData) => {
     const filteredData = [];
     const seenDates = new Set();
