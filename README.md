@@ -47,7 +47,7 @@ To set up this project on your local machine, please follow the detailed instruc
   - By default, it will provide weather information for the first city picked from the cities tabs.
   - It will retrieve the list of cities internally by using the backend API for cities. It will display a progress bar on the UI until the API's successful response.
   
-  ![Home page](![image](https://github.com/DiptiPrabhavale11/Weather-Forecast-Vue/assets/113642858/fc36e142-8070-4a6f-9448-9bf1e023e314)
+  ![Home page](https://github.com/DiptiPrabhavale11/Weather-Forecast/assets/113642858/db405d31-2f87-41a4-9e6f-b9a911506b5c)
 
 - ### Hourly Forecast
 
@@ -57,14 +57,15 @@ To set up this project on your local machine, please follow the detailed instruc
 
     `http://openweathermap.org/img/wn/${image name from weather API response.icon}@2x.png`
 
-  ![image](https://github.com/DiptiPrabhavale11/Weather-Forecast-Vue/assets/113642858/904c31f5-84eb-4d84-9925-01a512dcca84)
+  ![Hourly Forecast](https://github.com/DiptiPrabhavale11/Weather-Forecast/assets/113642858/3f56735e-f824-4003-9c19-34d2798aff7a)
+
 
 - ### Daywise Forecast
 
   - This is the Daywise Forecast for 5 days including the current day.
   - It will show the Weather image, Date, Weather description, Minimum, Maximum & Feels like Temperature in Celsius, and precipitation percentage.
 
-  ![image](https://github.com/DiptiPrabhavale11/Weather-Forecast-Vue/assets/113642858/2df4087f-197a-4e39-8b9e-6269cc515a36)
+  ![Daywise Forecast](https://github.com/DiptiPrabhavale11/Weather-Forecast/assets/113642858/58f9988d-1985-4abb-9a10-3af483df53b1)
 
 - ### City Selection, Tabs, and Refresh
 
@@ -75,7 +76,7 @@ To set up this project on your local machine, please follow the detailed instruc
   - If the user deletes some of the text and exits the search, the previously selected city will remain in the search field.
   - The Refresh button will retrieve new weather results and display updated weather information as well as the time at the footer.
 
-  ![image](https://github.com/DiptiPrabhavale11/Weather-Forecast-Vue/assets/113642858/ac6eb38a-a281-423a-889d-8eda2338771a)
+  ![image](https://github.com/DiptiPrabhavale11/Weather-Forecast/assets/113642858/24b76e28-4700-4e02-96f3-e86f1980a0e7)
 
 - ### Application Header
 
@@ -83,10 +84,11 @@ To set up this project on your local machine, please follow the detailed instruc
   - On click of the Home button, the tab selection is reset to the first tab, and just three preset cities will be displayed.
   - It will show weather details for the first city on the list.
 
-  ![image](https://github.com/DiptiPrabhavale11/Weather-Forecast-Vue/assets/113642858/9795ae7e-e9f3-4d01-ae0a-a58bff53943d)
+  ![Application Header](https://github.com/DiptiPrabhavale11/Weather-Forecast/assets/113642858/95cd22bd-93c4-4520-92ac-03f475331799)
 
 - ### Application Footer
 
   - This is the Application Footer which includes the Date and Time when the record was last updated.
 
-  ![image](https://github.com/DiptiPrabhavale11/Weather-Forecast-Vue/assets/113642858/9c5f3f0a-a335-4d6d-9980-035f596c2e58)
+  ![Application Footer](https://github.com/DiptiPrabhavale11/Weather-Forecast/assets/113642858/64696c99-d087-4ca7-b7d0-022cdfa2c1a6)
+
